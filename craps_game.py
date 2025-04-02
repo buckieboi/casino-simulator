@@ -56,6 +56,11 @@ def craps_game(chips):
     return chips
 
 def main():
+    #test case for playe with 100 chips and give ui. 
+    # this is checking if user has chips remaining, and will end the game when user reaches 0.
+    # this does not account  for negative chips, as user only can bet available chips (no credit.)
+    # ask the player once the game is over if they want to play again every loss.
+    #if player loses all chips then  the game force exits player out.
     chips = 100  # Starting chips
     print("Welcome to the Craps game!")
     
@@ -84,3 +89,5 @@ if __name__ == "__main__":
 
 #ui featueres
 #html, css or bootsrap
+# run as a local page, but can we run it on render or netlify as public avaiable website?
+#
