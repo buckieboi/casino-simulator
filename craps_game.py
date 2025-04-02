@@ -88,6 +88,6 @@ if __name__ == "__main__":
 # the ratio of bet affects how much can be made
 
 #ui featueres
-#html, css or bootsrap
+#html, css, minimal javascript or bootsrap
 # run as a local page, but can we run it on render or netlify as public avaiable website?
-#
+# or just host it on github io as a public webpage just for convience.
